@@ -6,22 +6,22 @@ pub fn load_dynamic_assets() {
 
 
 add_asset(
-        &["/static/js/2.3a3f71f3.chunk.js"],
+        &["/static/js/2.abcf4618.chunk.js"],
         vec![
             ("Content-Type".to_string(), "text/javascript".to_string()),
             ("Content-Encoding".to_string(), "gzip".to_string()),
             ("Cache-Control".to_string(), "public".to_string()),
         ],
-        include_bytes!("../../build/static/js/2.3a3f71f3.chunk.js.gz").to_vec(),
+        include_bytes!("../../build/static/js/2.abcf4618.chunk.js.gz").to_vec(),
     );
 add_asset(
-        &["/static/js/3.4caed6e5.chunk.js"],
+        &["/static/js/3.91600b9a.chunk.js"],
         vec![
             ("Content-Type".to_string(), "text/javascript".to_string()),
             ("Content-Encoding".to_string(), "gzip".to_string()),
             ("Cache-Control".to_string(), "public".to_string()),
         ],
-        include_bytes!("../../build/static/js/3.4caed6e5.chunk.js.gz").to_vec(),
+        include_bytes!("../../build/static/js/3.91600b9a.chunk.js.gz").to_vec(),
     );
 add_asset(
         &["/static/js/4.77cfc765.chunk.js"],
@@ -51,22 +51,22 @@ add_asset(
         include_bytes!("../../build/static/js/6.05012627.chunk.js.gz").to_vec(),
     );
 add_asset(
-        &["/static/js/main.a24633a9.chunk.js"],
+        &["/static/js/main.8fafbb0d.chunk.js"],
         vec![
             ("Content-Type".to_string(), "text/javascript".to_string()),
             ("Content-Encoding".to_string(), "gzip".to_string()),
             ("Cache-Control".to_string(), "public".to_string()),
         ],
-        include_bytes!("../../build/static/js/main.a24633a9.chunk.js.gz").to_vec(),
+        include_bytes!("../../build/static/js/main.8fafbb0d.chunk.js.gz").to_vec(),
     );
 add_asset(
-        &["/static/js/runtime-main.8e365caf.js"],
+        &["/static/js/runtime-main.6d902f4d.js"],
         vec![
             ("Content-Type".to_string(), "text/javascript".to_string()),
             ("Content-Encoding".to_string(), "gzip".to_string()),
             ("Cache-Control".to_string(), "public".to_string()),
         ],
-        include_bytes!("../../build/static/js/runtime-main.8e365caf.js.gz").to_vec(),
+        include_bytes!("../../build/static/js/runtime-main.6d902f4d.js.gz").to_vec(),
     );
 add_asset(
         &["/static/css/2.fc8ef173.chunk.css"],
